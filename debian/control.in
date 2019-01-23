@@ -30,6 +30,7 @@ Standards-Version: 4.1.2
 #
 Package: delphix-kernel-@@KVERS@@
 Provides: delphix-kernel-@@PLATFORM@@, delphix-kernel
+Conflicts: delphix-kernel-@@PLATFORM@@, delphix-kernel
 Architecture: any
 Depends: linux-@@PLATFORM@@,
          linux-tools-@@PLATFORM@@,
